@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://rancho-api.herokuapp.com/",
+  baseURL: process.env.REAC_APP_API_URL,
 });
