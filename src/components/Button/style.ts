@@ -5,7 +5,7 @@ interface ButtonProps {
 }
 
 export const Button = styled.button<ButtonProps>`
-  min-width: 20px;
+  min-width: 30px;
   min-height: 10px;
   padding: ${(props) => (props.paddingNone ? 0 : 4)}px;
   border-radius: 8px;

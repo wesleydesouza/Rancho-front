@@ -34,7 +34,7 @@ export const ProductWrapper = styled.div`
   border: none;
   background-color: ${(props) => props.theme.colors.white};
   box-shadow: 1px 1px 10px 1px rgba(5, 5, 5, 0.1);
-  font-size: 0.8em;
+  font-size: 1.1em;
   transition: all 0.5s;
 
   span,
