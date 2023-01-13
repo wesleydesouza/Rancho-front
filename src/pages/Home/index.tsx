@@ -191,7 +191,7 @@ export const Home = () => {
               type="number"
               placeholder="Preço Un."
               min={0}
-              value={valueInputFutureList}
+              value={product.price}
               onChange={(e) => setValueInputFutureList(e.target.value)}
             />
             <S.ButtonsWrapper>
